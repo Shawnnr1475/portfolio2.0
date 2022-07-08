@@ -15,9 +15,9 @@
                 <h2>Shawn<br><span>Radebe</span></h2>
             </div>
             <nav class="navbar-links">
-                <a href="/">Contact Me</a>
-                <a href="/">About</a>
-                <button>CV</button>
+                <a class="nav-link" href="#Contact-Me">Contact Me</a>
+                <a class="nav-link" href="/about.html">About</a>
+                <a class="cv-btn" href="https://drive.google.com/file/d/1SaBI1_54E_gpxa44WnjqjZ7V3k5W9wYn/view?usp=sharing" target="_blank">CV</a>
             </nav>
             <img class="menu-btn" src="./images/icon-hamburger.svg" alt="">
         </div>
@@ -26,7 +26,7 @@
                 <p>Hi There</p>
                 <h1>I'm <span>Shawn Radebe</span></h1>
                 <h2>and I'm a <span>Frontend Developer.</span></h2>
-                <button>CV</button>
+                <a class="cv-btn" href="https://drive.google.com/file/d/1SaBI1_54E_gpxa44WnjqjZ7V3k5W9wYn/view?usp=sharing" target="_blank">CV</a>
             </div>
             <div class="hero-img-container">
                 <img src="./images/profile-pic.jpg" alt="">
@@ -37,6 +37,19 @@
             </div>
         </section>
     </header>
+    <div class="menu-content">
+        <div class="menu-nav">
+            <div class="logo-container">
+                <h2>Shawn<br><span>Radebe</span></h2>
+            </div>
+            <img class="close-btn" src="./images/icon-close.svg" alt="">
+        </div>
+        <nav class="menu-links">
+            <a class="menu-link" href="#Contact-Me">Contact Me</a>
+            <a class="menu-link" href="/about.html">About</a>
+            <a class="cv-btn" href="https://drive.google.com/file/d/1SaBI1_54E_gpxa44WnjqjZ7V3k5W9wYn/view?usp=sharing" target="_blank">CV</a>
+        </nav>
+    </div>
     <main>
         <section class="intro section-padding">
             <div class="intro-content">
@@ -87,8 +100,8 @@
             </div>
         </section>
         <section class="projects section-padding">
-            <div class="project-img-container">
-                <img class="frontmentor-img" src="./images/Front Mentor.jpg" alt="">
+            <div class="project-img-container frontmentor-img-container">
+                <img class="frontmentor-img" src=   "./images/Front Mentor.jpg" alt="">
             </div>
             <div class="project-content">
                 <h2>Front Mentor Challenges</h2>
@@ -100,7 +113,7 @@
                 <a href="https://www.frontendmentor.io/" target="_blank">Front Mentor</a>
             </div>
         </section>
-        <section class="contact-me section-padding">
+        <section id="Contact-Me" class="contact-me section-padding">
             <form action="">
                 <h2>Contact Me</h2>
                 <textarea name="contact-me-msg" cols="30" rows="10" placeholder="Hi, tell how I can help you..."></textarea>
@@ -116,7 +129,7 @@
                 viewBox="0 0 24 24">
                 <path d="M20 18h-2V9.25L12 13L6 9.25V18H4V6h1.2l6.8 4.25L18.8 6H20m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Z"/>
                 </svg>
-                <a href="mailto:radebeshawnn@gmail.com">Gmail</a>
+                <a href="mailto:radebeshawnn@gmail.com" target="_blank">Gmail</a>
             </div>
         
             <div class="icon-container">
@@ -125,7 +138,7 @@
                 viewBox="0 0 16 16">
                 <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144l-2.494.654l.666-2.433l-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931a6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646c-.182-.065-.315-.099-.445.099c-.133.197-.513.646-.627.775c-.114.133-.232.148-.43.05c-.197-.1-.836-.308-1.592-.985c-.59-.525-.985-1.175-1.103-1.372c-.114-.198-.011-.304.088-.403c.087-.088.197-.232.296-.346c.1-.114.133-.198.198-.33c.065-.134.034-.248-.015-.347c-.05-.099-.445-1.076-.612-1.47c-.16-.389-.323-.335-.445-.34c-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654c0 .977.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992c.47.205.84.326 1.129.418c.475.152.904.129 1.246.08c.38-.058 1.171-.48 1.338-.943c.164-.464.164-.86.114-.943c-.049-.084-.182-.133-.38-.232z"/>
                 </svg>
-                <a href="http://wa.me//+27623367655">WhatsApp</a>
+                <a href="http://wa.me//+27623367655" target="_blank">WhatsApp</a>
             </div>
             <div class="icon-container">
                 <svg class="linkedin-icon" 
@@ -134,7 +147,7 @@
                 <rect x="0" y="0" width="24" height="24" fill="none" stroke="none" />
                 <path fill-rule="evenodd" d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838Zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634c3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8c-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388Zm-5.5 10.403h3.208V9.25H4.208v10.54ZM7.875 5.812a2.063 2.063 0 1 1-4.125 0a2.063 2.063 0 0 1 4.125 0Z" clip-rule="evenodd"/>
                 </svg>
-                <a href="www.linkedin.com/in/shawn-radebe-2a3425213">Linkedin</a>
+                <a href="www.linkedin.com/in/shawn-radebe-2a3425213" target="_blank">Linkedin</a>
             </div>
 
             <div class="icon-container">
@@ -143,9 +156,10 @@
                 viewBox="0 0 24 24">
                 <path fill-rule="evenodd" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385c.6.105.825-.255.825-.57c0-.285-.015-1.23-.015-2.235c-3.015.555-3.795-.735-4.035-1.41c-.135-.345-.72-1.41-1.23-1.695c-.42-.225-1.02-.78-.015-.795c.945-.015 1.62.87 1.845 1.23c1.08 1.815 2.805 1.305 3.495.99c.105-.78.42-1.305.765-1.605c-2.67-.3-5.46-1.335-5.46-5.925c0-1.305.465-2.385 1.23-3.225c-.12-.3-.54-1.53.12-3.18c0 0 1.005-.315 3.3 1.23c.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23c.66 1.65.24 2.88.12 3.18c.765.84 1.23 1.905 1.23 3.225c0 4.605-2.805 5.625-5.475 5.925c.435.375.81 1.095.81 2.22c0 1.605-.015 2.895-.015 3.3c0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12Z" clip-rule="evenodd"/>
                 </svg>
-                <a href="https://github.com/Shawnnr1475">Github</a>
+                <a href="https://github.com/Shawnnr1475" target="_blank">Github</a>
             </div>
         </div>
     </footer>
 </body>
+<script src="./scripts.js"></script>
 </html>
